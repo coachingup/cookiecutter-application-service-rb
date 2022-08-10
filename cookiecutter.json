@@ -1,5 +1,6 @@
 {
 	"service_name" : "my-application-service-",
 	"module_name" : "my-module",
-        "dir": "/Users/jessesun/Desktop/BetterUp/rank/"
+        "dir": "app/services/",
+	"version": "0.0.1"
 }
