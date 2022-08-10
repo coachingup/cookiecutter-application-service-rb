@@ -1,5 +1,5 @@
 module {{cookiecutter.module_name}}
-  class Create < ApplicationService
+  class {{cookiecutter.service_name}} < ApplicationService
     def call
       puts "Hello world"
     end
