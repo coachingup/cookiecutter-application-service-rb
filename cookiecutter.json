@@ -1,11 +1,11 @@
 {
 	"service_name" : "my-application-service-",
 	"module_name" : "my-module",
-        "dir": "",
+        "dir": "/app/services",
 	"version": "0.0.1",
 	"_cortex_field_configurations": {
 		"dir": {
-		"description": "(Optional) Places this service in a subdir of app/services",
+		"description": "Make sure the service is in the path of app/services",
 		"use_default": true
 		}
 	}
