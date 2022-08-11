@@ -1,12 +1,14 @@
 {
 	"service_name" : "my-application-service-",
 	"module_name" : "my-module",
-        "dir": "",
-	"version": "0.0.1",
+        "dir": "app/",
+		"dir2": "services/",
+	"version": "1.0.0",
 	"_cortex_field_configurations": {
 		"dir": {
-		"description": "(Optional) Specify subfolder name in app/services.",
+		"description": "Specify subfolder name in app/services.",
 		"use_default": true
 		}
-	}
+	},
+	"@cortex_hidden_keys": ["dir", "dir2"]
 }
