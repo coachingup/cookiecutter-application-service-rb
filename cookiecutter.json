@@ -1,14 +1,7 @@
 {
 	"service_name" : "my-application-service-",
 	"module_name" : "my-module",
-        "dir": "app/",
-		"dir2": "services/",
+        "dir": "bettererup-app",
 	"version": "1.0.0",
-	"_cortex_field_configurations": {
-		"dir": {
-		"description": "Specify subfolder name in app/services.",
-		"use_default": true
-		}
-	},
-	"@cortex_hidden_keys": ["dir", "dir2"]
+	"@cortex_hidden_keys": ["dir"]
 }
