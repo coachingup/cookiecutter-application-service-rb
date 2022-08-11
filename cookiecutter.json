@@ -2,6 +2,7 @@
 	"service_name" : "my-application-service-",
 	"module_name" : "my-module",
         "dir": "bettererup-app",
+        "create_subdir": ["y", "n"],
 	"version": "1.0.0",
 	"@cortex_hidden_keys": ["dir"]
 }
